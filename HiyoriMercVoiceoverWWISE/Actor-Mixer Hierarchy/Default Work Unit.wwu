@@ -553,6 +553,714 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Hurt" ID="{6DC7BB1A-CA49-4A69-BE1B-291BBF5FCEDE}" ShortID="311584261">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Hiyori_(Swimsuit)_Battle_Damage_1" ID="{774ED841-4812-44C1-B947-C2746E8F6632}" ShortID="906370863">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Battle_Damage_1" ID="{0E424740-D787-417E-89D6-EC0C0FB77797}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Battle_Damage_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="293102341"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Battle_Damage_1" ID="{0E424740-D787-417E-89D6-EC0C0FB77797}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_(Swimsuit)_Battle_Damage_2" ID="{B6C2D5FF-83F2-4452-9F69-0DDC7B850D03}" ShortID="614295113">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Battle_Damage_2" ID="{1FFCBE83-A653-46C1-8F70-ECAC82149EA6}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Battle_Damage_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="195388889"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Battle_Damage_2" ID="{1FFCBE83-A653-46C1-8F70-ECAC82149EA6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_(Swimsuit)_Battle_Damage_3" ID="{E9EC3DAD-9974-40AA-A87C-6FE9A5BCFF95}" ShortID="903161890">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Battle_Damage_3" ID="{A9013CAC-7ECE-421F-9686-38D1185C6DFF}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Battle_Damage_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="167306015"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Battle_Damage_3" ID="{A9013CAC-7ECE-421F-9686-38D1185C6DFF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Hiyori_ExWeapon_Get" ID="{C8DC5B7F-50DC-4B5D-B0C6-4537F98D870A}" ShortID="292234655">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_ExWeapon_Get" ID="{E46D1F33-B513-4941-9A68-D9B3C6785FBD}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_ExWeapon_Get.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="225111286"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_ExWeapon_Get" ID="{E46D1F33-B513-4941-9A68-D9B3C6785FBD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Shout" ID="{EC852F3B-15D8-4B8D-8344-84D8AB3B4C55}" ShortID="276030636">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Hiyori_(Swimsuit)_Battle_Shout_1" ID="{8BC52B9A-63A4-40D3-A048-7C911F467966}" ShortID="651615692">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Battle_Shout_1" ID="{E4D54BD6-EE2E-46A9-BA2D-BE3EF52A55F9}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Battle_Shout_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="771720859"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Battle_Shout_1" ID="{E4D54BD6-EE2E-46A9-BA2D-BE3EF52A55F9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_(Swimsuit)_Battle_Shout_2" ID="{9254F4BC-F227-4740-9E89-4D9080E1A4E1}" ShortID="681442913">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Battle_Shout_2" ID="{0ED2DEE0-8760-42FB-94E1-A0D3ADC9AE40}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Battle_Shout_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="348193705"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Battle_Shout_2" ID="{0ED2DEE0-8760-42FB-94E1-A0D3ADC9AE40}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_(Swimsuit)_Battle_Shout_3" ID="{30123B94-2250-44DB-BF2D-30BA17AE9D22}" ShortID="719179688">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Battle_Shout_3" ID="{8EE0D584-32AB-440C-88C8-C2280689106D}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Battle_Shout_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="931204543"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Battle_Shout_3" ID="{8EE0D584-32AB-440C-88C8-C2280689106D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Spawn" ID="{BAB0F9EF-D989-4D07-94E4-3072638E9DDA}" ShortID="360204804">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Hiyori_(Swimsuit)_Battle_In_1" ID="{1B8A3AAA-6721-4790-B5AA-AC41C4F847BC}" ShortID="453314429">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Battle_In_1" ID="{FD69CF5F-EF1F-492E-AA28-04F1F103DE7D}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Battle_In_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="608145596"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Battle_In_1" ID="{FD69CF5F-EF1F-492E-AA28-04F1F103DE7D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_(Swimsuit)_Battle_In_2" ID="{A822BFBD-C126-4EEB-B312-44235A6145AD}" ShortID="698131545">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Battle_In_2" ID="{588DBD51-8DFB-42DE-B65A-D8AFA965458C}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Battle_In_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="377754969"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Battle_In_2" ID="{588DBD51-8DFB-42DE-B65A-D8AFA965458C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_Formation_In_2" ID="{FDFB71B0-8FF2-423B-BE07-566BDFC49791}" ShortID="649614295">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_Formation_In_2" ID="{CE1B5730-07BE-46A2-A621-C78AB3C9E41E}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_Formation_In_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="401133235"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_Formation_In_2" ID="{CE1B5730-07BE-46A2-A621-C78AB3C9E41E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_(Swimsuit)_Tactic_In_1" ID="{D3B5D87F-FDFC-4AC6-9A2C-7CBD78EBD584}" ShortID="467771521">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Tactic_In_1" ID="{5FFEE2B6-42B1-444E-98D5-3F5BB800AA1E}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Tactic_In_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="820380493"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Tactic_In_1" ID="{5FFEE2B6-42B1-444E-98D5-3F5BB800AA1E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_Formation_In_1" ID="{24049589-5FE7-41F2-93F8-43DDF3A3EF32}" ShortID="899639558">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_Formation_In_1" ID="{C5760D74-8D61-4CE8-8C5A-7F18DF0BA551}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_Formation_In_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="206648617"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_Formation_In_1" ID="{C5760D74-8D61-4CE8-8C5A-7F18DF0BA551}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Hiyori_MemorialLobby_0" ID="{FCB21A98-B82B-4ED8-B822-9816C740067C}" ShortID="177284081">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_MemorialLobby_0" ID="{E383569D-83AB-469C-99AD-D16686F8DA7C}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_MemorialLobby_0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="115018689"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_MemorialLobby_0" ID="{E383569D-83AB-469C-99AD-D16686F8DA7C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_(Swimsuit)_MemorialLobby_1" ID="{A3ADF5A6-95F9-49C4-A344-2F08FF3175B1}" ShortID="554984782">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_(Swimsuit)_MemorialLobby_1" ID="{304D58B6-E139-480F-A4D1-9421FBD74114}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_(Swimsuit)_MemorialLobby_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="750738927"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_(Swimsuit)_MemorialLobby_1" ID="{304D58B6-E139-480F-A4D1-9421FBD74114}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="RunVictory" ID="{6813A907-5BC4-4B6C-89A5-3E5A28C51122}" ShortID="336389610">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Hiyori_(Swimsuit)_Tactic_Victory_1" ID="{B75F2298-2168-4835-A7A6-A73C4995EE8C}" ShortID="685523315">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Tactic_Victory_1" ID="{505A5F0E-A90B-49F0-B231-0038FF062479}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Tactic_Victory_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="871441027"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Tactic_Victory_1" ID="{505A5F0E-A90B-49F0-B231-0038FF062479}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_(Swimsuit)_Tactic_Victory_2" ID="{4B86C95D-DA56-4583-8817-637A0A15A6D9}" ShortID="854086192">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_(Swimsuit)_Tactic_Victory_2" ID="{81B44C08-E595-4425-A3F3-5DCF743EB9A7}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_(Swimsuit)_Tactic_Victory_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1049380881"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_(Swimsuit)_Tactic_Victory_2" ID="{81B44C08-E595-4425-A3F3-5DCF743EB9A7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Hiyori_ExSkill_1" ID="{68F6C419-816D-48E4-972C-5ABC8A968AD0}" ShortID="108448152">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_ExSkill_1" ID="{68498CA7-B340-4162-AC49-E97BB0807B6C}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_ExSkill_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="678539683"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_ExSkill_1" ID="{68498CA7-B340-4162-AC49-E97BB0807B6C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_ExSkill_2" ID="{99C28CFB-72BD-4725-8D52-361F9279F238}" ShortID="32901120">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_ExSkill_2" ID="{D0181B17-9F54-4E0F-8C0B-88BB67CC9E9C}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_ExSkill_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1050492598"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_ExSkill_2" ID="{D0181B17-9F54-4E0F-8C0B-88BB67CC9E9C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_ExSkill_3" ID="{4E691A5F-9433-4E03-B309-CD239E5557E4}" ShortID="777611860">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_ExSkill_3" ID="{C56B1301-E49E-4F54-BDCA-B824C9D8D03E}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_ExSkill_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="318077461"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_ExSkill_3" ID="{C56B1301-E49E-4F54-BDCA-B824C9D8D03E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_ExSkill_Level_1" ID="{3148FEFE-C487-4CAD-B3B5-7C7B274BEDB0}" ShortID="1053186709">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_ExSkill_Level_1" ID="{CEAA43B2-B1C0-4BD3-974F-B328D7905232}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_ExSkill_Level_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="761865509"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_ExSkill_Level_1" ID="{CEAA43B2-B1C0-4BD3-974F-B328D7905232}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_ExSkill_Level_2" ID="{3EC6F3BA-6EC4-483D-8634-543A99A1185A}" ShortID="931978554">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_ExSkill_Level_2" ID="{75DE560D-320E-4A7D-8CFA-821B92541F94}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_ExSkill_Level_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1051120965"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_ExSkill_Level_2" ID="{75DE560D-320E-4A7D-8CFA-821B92541F94}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_ExSkill_Level_3" ID="{ED262A3F-2022-45A5-830B-2618AF1C0C5E}" ShortID="783410858">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_ExSkill_Level_3" ID="{E6DBDE24-6788-449E-BE8E-0A385D850081}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_ExSkill_Level_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="950959648"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_ExSkill_Level_3" ID="{E6DBDE24-6788-449E-BE8E-0A385D850081}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_(Swimsuit)_MemorialLobby_5_2" ID="{8E55D699-65DE-47D8-9BD4-74AD94E82F3C}" ShortID="661150706">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_(Swimsuit)_MemorialLobby_5_2" ID="{81E5920B-8B28-4673-AD82-35CA6E390694}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_(Swimsuit)_MemorialLobby_5_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="986792202"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_(Swimsuit)_MemorialLobby_5_2" ID="{81E5920B-8B28-4673-AD82-35CA6E390694}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_(Swimsuit)_Tactic_Defeat_1" ID="{167AD778-6623-4276-AE92-4C8C5EC192DE}" ShortID="181033533">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_(Swimsuit)_Tactic_Defeat_1" ID="{447A2A80-4544-4BE5-8EB3-BA8FB0CF3B00}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_(Swimsuit)_Tactic_Defeat_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="493210795"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_(Swimsuit)_Tactic_Defeat_1" ID="{447A2A80-4544-4BE5-8EB3-BA8FB0CF3B00}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Bweh" ID="{FDE3E1D7-C016-462E-84A5-5CC4DA666753}" ShortID="876344833">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Bweh" ID="{D767235B-B827-4849-81CA-F61DC8B341DE}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Bweh.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="436050035"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Bweh" ID="{D767235B-B827-4849-81CA-F61DC8B341DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Owari3" ID="{B7307DCB-CCF1-4F51-881F-DECB4BA7F5E7}" ShortID="88000294">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Owari3" ID="{DAE80754-F2F5-4AA3-88B3-D12F9E97EB7C}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Owari3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="99011501"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Owari3" ID="{DAE80754-F2F5-4AA3-88B3-D12F9E97EB7C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_CommonSkill" ID="{FD285E30-912A-4D51-BD48-E3D5D9B62E76}" ShortID="815946302">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_CommonSkill" ID="{3E97A67F-6E49-4103-BB47-A859718027C4}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_CommonSkill.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="251258119"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_CommonSkill" ID="{3E97A67F-6E49-4103-BB47-A859718027C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_(Swimsuit)_ExSkill_2" ID="{0DE8677B-4559-4F23-9B24-F996BA04F39F}" ShortID="744744568">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_(Swimsuit)_ExSkill_2" ID="{03ACED84-3FE0-4A88-BC11-BC25E7FF435A}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_(Swimsuit)_ExSkill_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1032805606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_(Swimsuit)_ExSkill_2" ID="{03ACED84-3FE0-4A88-BC11-BC25E7FF435A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_(Swimsuit)_Battle_Recovery_1" ID="{67F7056E-E21B-41CA-8F4A-C841B461EE8C}" ShortID="781976329">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_(Swimsuit)_Battle_Recovery_1" ID="{28CB7028-970C-4865-9F01-94F98A6CA2B9}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_(Swimsuit)_Battle_Recovery_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="614403518"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_(Swimsuit)_Battle_Recovery_1" ID="{28CB7028-970C-4865-9F01-94F98A6CA2B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Grotesque" ID="{7E16E209-71BD-4CD0-833F-33697C2E1A69}" ShortID="366361248">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Grotesque" ID="{0140A155-0007-419B-B120-87C7E430F82D}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Grotesque.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="855731544"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Grotesque" ID="{0140A155-0007-419B-B120-87C7E430F82D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

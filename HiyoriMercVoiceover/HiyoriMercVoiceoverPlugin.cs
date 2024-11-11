@@ -26,6 +26,10 @@ namespace HiyoriMercVoiceover
     public class HiyoriMercVoiceoverPlugin : BaseUnityPlugin
     {
         public static ConfigEntry<bool> enableVoicelines;
+        public static ConfigEntry<KeyboardShortcut> buttonHurt, buttonShout, buttonTitle, buttonBweh, buttonItai,
+            buttonEX1, buttonEX2, buttonEX3, buttonEXL1, buttonEXL2, buttonEXL3,
+            buttonOwari1, buttonOwari2, buttonOwari3,
+            buttonCommon, buttonNigashimasen, buttonArigatou, buttonGrotesque;
         public static bool playedSeasonalVoiceline = false;
         public static AssetBundle assetBundle;
         public static SurvivorDef survivorDef = Addressables.LoadAssetAsync<SurvivorDef>("RoR2/Base/Merc/Merc.asset").WaitForCompletion();
@@ -48,6 +52,29 @@ namespace HiyoriMercVoiceover
             enableVoicelines = base.Config.Bind<bool>(new ConfigDefinition("Settings", "Enable Voicelines"), true, new ConfigDescription("Enable voicelines when using the Hiyori Mercenary Skin."));
             enableVoicelines.SettingChanged += EnableVoicelines_SettingChanged;
 
+            buttonTitle = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Blue Archive"), KeyboardShortcut.Empty);
+            buttonHurt = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Hurt"), KeyboardShortcut.Empty);
+            buttonShout = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Shout"), KeyboardShortcut.Empty);
+            buttonBweh = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Bweh"), KeyboardShortcut.Empty);
+            buttonItai = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Itai Desu"), KeyboardShortcut.Empty);
+
+            buttonEX1 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX 1"), KeyboardShortcut.Empty);
+            buttonEX2 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX 2"), KeyboardShortcut.Empty);
+            buttonEX3 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX 3"), KeyboardShortcut.Empty);
+
+            buttonEXL1 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX Lv1"), KeyboardShortcut.Empty);
+            buttonEXL2 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX Lv2"), KeyboardShortcut.Empty);
+            buttonEXL3 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "EX Lv3"), KeyboardShortcut.Empty);
+
+            buttonOwari1 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Owari 1"), KeyboardShortcut.Empty);
+            buttonOwari2 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Owari 2"), KeyboardShortcut.Empty);
+            buttonOwari3 = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Owari 3"), KeyboardShortcut.Empty);
+
+            buttonCommon = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Common Skill"), KeyboardShortcut.Empty);
+            buttonNigashimasen = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Nigashimasen"), KeyboardShortcut.Empty);
+            buttonArigatou = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Arigatou"), KeyboardShortcut.Empty);
+            buttonGrotesque = base.Config.Bind<KeyboardShortcut>(new ConfigDefinition("Keybinds", "Grotesque"), KeyboardShortcut.Empty);
+
             if (BepInEx.Bootstrap.Chainloader.PluginInfos.ContainsKey("com.rune580.riskofoptions"))
             {
                 RiskOfOptionsCompat();
@@ -64,6 +91,24 @@ namespace HiyoriMercVoiceover
         {
             RiskOfOptions.ModSettingsManager.SetModIcon(assetBundle.LoadAsset<Sprite>("hiyori"));
             RiskOfOptions.ModSettingsManager.AddOption(new CheckBoxOption(enableVoicelines));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonTitle));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonHurt));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonShout));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonBweh));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonItai));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonEX1));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonEX2));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonEX3));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonEXL1));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonEXL2));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonEXL3));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonOwari1));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonOwari2));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonOwari3));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonCommon));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonNigashimasen));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonArigatou));
+            RiskOfOptions.ModSettingsManager.AddOption(new KeyBindOption(buttonGrotesque));
         }
 
         private void OnLoad()
@@ -137,7 +182,29 @@ namespace HiyoriMercVoiceover
 
         private void InitNSE()
         {
+            HiyoriMercVoiceoverComponent.nseHurt = RegisterNSE("Play_HiyoriMerc_Hurt");
+            HiyoriMercVoiceoverComponent.nseShout = RegisterNSE("Play_HiyoriMerc_Shout");
+            HiyoriMercVoiceoverComponent.nseTitle = RegisterNSE("Play_HiyoriMerc_Title");
+            HiyoriMercVoiceoverComponent.nseBweh = RegisterNSE("Play_HiyoriMerc_Bweh");
+            HiyoriMercVoiceoverComponent.nseItai = RegisterNSE("Play_HiyoriMerc_Itai");
 
+            HiyoriMercVoiceoverComponent.nseEX1 = RegisterNSE("Play_HiyoriMerc_ExSkill_1");
+            HiyoriMercVoiceoverComponent.nseEX2 = RegisterNSE("Play_HiyoriMerc_ExSkill_2");
+            HiyoriMercVoiceoverComponent.nseEX3 = RegisterNSE("Play_HiyoriMerc_ExSkill_3");
+
+            HiyoriMercVoiceoverComponent.nseEXL1 = RegisterNSE("Play_HiyoriMerc_ExSkill_Level_1");
+            HiyoriMercVoiceoverComponent.nseEXL2 = RegisterNSE("Play_HiyoriMerc_ExSkill_Level_2");
+            HiyoriMercVoiceoverComponent.nseEXL3 = RegisterNSE("Play_HiyoriMerc_ExSkill_Level_3");
+
+            HiyoriMercVoiceoverComponent.nseOwari1 = RegisterNSE("Play_HiyoriMerc_Owari_1");
+            HiyoriMercVoiceoverComponent.nseOwari2 = RegisterNSE("Play_HiyoriMerc_Owari_2");
+            HiyoriMercVoiceoverComponent.nseOwari3 = RegisterNSE("Play_HiyoriMerc_Owari_3");
+
+            HiyoriMercVoiceoverComponent.nseCommon = RegisterNSE("Play_HiyoriMerc_CommonSkill");
+            HiyoriMercVoiceoverComponent.nseNigashimasen = RegisterNSE("Play_HiyoriMerc_Special");
+            HiyoriMercVoiceoverComponent.nseArigatou = RegisterNSE("Play_HiyoriMerc_Arigatou");
+
+            HiyoriMercVoiceoverComponent.nseGrotesque = RegisterNSE("Play_HiyoriMerc_Grotesque");
         }
 
         public void RefreshNSE()

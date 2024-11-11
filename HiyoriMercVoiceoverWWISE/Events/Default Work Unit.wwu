@@ -157,6 +157,226 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_HiyoriMerc_Hurt" ID="{394A1F0A-AE88-475F-A48E-DB59B08151AF}">
+					<ChildrenList>
+						<Action Name="" ID="{8C018783-9308-40D6-BDC1-76EC9D8983AB}" ShortID="894810159">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hurt" ID="{6DC7BB1A-CA49-4A69-BE1B-291BBF5FCEDE}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_AcquireScepter" ID="{DC7968D5-4275-4B15-A700-6692020177E9}">
+					<ChildrenList>
+						<Action Name="" ID="{7E900641-2DE2-4CAB-9E1E-F779C9FF96F7}" ShortID="778617830">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_ExWeapon_Get" ID="{C8DC5B7F-50DC-4B5D-B0C6-4537F98D870A}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Shout" ID="{65D9A589-EC4F-4118-90BB-7CCD7DF15FEA}">
+					<ChildrenList>
+						<Action Name="" ID="{0A34D0C9-7F39-4564-8C0A-39FCC2A4D6B5}" ShortID="892711982">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Shout" ID="{EC852F3B-15D8-4B8D-8344-84D8AB3B4C55}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Spawn" ID="{60A1B1FA-70B9-4B0B-90CF-EC1166DBC459}">
+					<ChildrenList>
+						<Action Name="" ID="{A7F0C28E-1AD1-40BA-BEB7-14F36C74FA05}" ShortID="676033000">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Spawn" ID="{BAB0F9EF-D989-4D07-94E4-3072638E9DDA}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Bweh" ID="{0CD78778-93D5-45D9-AC12-243CD29FAA32}">
+					<ChildrenList>
+						<Action Name="" ID="{1287C9D5-FEE3-4BCB-AA46-82DE0C1EF498}" ShortID="156864066">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Bweh" ID="{FDE3E1D7-C016-462E-84A5-5CC4DA666753}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Itai" ID="{CC7775AF-B1A7-4D82-8DE4-5D3029272705}">
+					<ChildrenList>
+						<Action Name="" ID="{50F6F487-C7EC-4188-8556-94F7688FA1D9}" ShortID="768390605">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_(Swimsuit)_MemorialLobby_1" ID="{A3ADF5A6-95F9-49C4-A344-2F08FF3175B1}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_RunVictory" ID="{FAE559C3-187C-4AE0-AE84-24F34721EC8A}">
+					<ChildrenList>
+						<Action Name="" ID="{75C92D34-529B-4B1C-86C5-5BDBD7DBF386}" ShortID="522173448">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RunVictory" ID="{6813A907-5BC4-4B6C-89A5-3E5A28C51122}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_EX_1" ID="{4DE9FFBC-ECB4-48E3-82C3-86C0BCA6A53D}">
+					<ChildrenList>
+						<Action Name="" ID="{4AB070AB-E654-43FD-9A90-B660D4CD62E9}" ShortID="820627020">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_ExSkill_1" ID="{68F6C419-816D-48E4-972C-5ABC8A968AD0}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_EX_2" ID="{9E1A658F-A59F-4BC8-A813-8ABDBD150FBB}">
+					<ChildrenList>
+						<Action Name="" ID="{BA2A8E9D-62CA-4585-871B-06B26DED2087}" ShortID="803451734">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_ExSkill_2" ID="{99C28CFB-72BD-4725-8D52-361F9279F238}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_EX_3" ID="{284E96E8-F0BD-4A2E-9FB8-75C63B9BC855}">
+					<ChildrenList>
+						<Action Name="" ID="{0267E4B9-100F-45FC-8B4B-60D3D6794EF4}" ShortID="306333368">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_ExSkill_3" ID="{4E691A5F-9433-4E03-B309-CD239E5557E4}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_EX_Level_1" ID="{85C52317-99D3-44F1-9145-27F4CC62D289}">
+					<ChildrenList>
+						<Action Name="" ID="{8A209989-F335-489A-8165-13A81CDD2B70}" ShortID="574262813">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_ExSkill_Level_1" ID="{3148FEFE-C487-4CAD-B3B5-7C7B274BEDB0}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_EX_Level_2" ID="{D828CD74-8531-4D3D-9E4B-B241DFB5D7F7}">
+					<ChildrenList>
+						<Action Name="" ID="{C1CE7677-12F8-4862-9B60-42E435B8CD39}" ShortID="131680534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_ExSkill_Level_2" ID="{3EC6F3BA-6EC4-483D-8634-543A99A1185A}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_EX_Level_3" ID="{5910C975-BC0C-4977-9FFF-AA9D8F92616E}">
+					<ChildrenList>
+						<Action Name="" ID="{BC88C4CD-7895-4EB0-9080-4C7173FCE10B}" ShortID="550655574">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_ExSkill_Level_3" ID="{ED262A3F-2022-45A5-830B-2618AF1C0C5E}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Owari_1" ID="{C7447F57-4151-46A5-8E6E-22319D7002CB}">
+					<ChildrenList>
+						<Action Name="" ID="{13A5E4E3-68F2-45C1-90FF-EEDD3A597A6F}" ShortID="747383622">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_(Swimsuit)_MemorialLobby_5_2" ID="{8E55D699-65DE-47D8-9BD4-74AD94E82F3C}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Owari_2" ID="{35710C91-0243-4892-9FBF-8F0CC475C8EA}">
+					<ChildrenList>
+						<Action Name="" ID="{4BD59D95-D8EB-49B3-A155-92310EAE1CD1}" ShortID="383692204">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_(Swimsuit)_Tactic_Defeat_1" ID="{167AD778-6623-4276-AE92-4C8C5EC192DE}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Owari_3" ID="{016B5DEF-DBE2-4473-AAA0-860EEFC0F4AE}">
+					<ChildrenList>
+						<Action Name="" ID="{015C535A-5E7C-46A3-8BA7-2F367F966B55}" ShortID="797409824">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Owari3" ID="{B7307DCB-CCF1-4F51-881F-DECB4BA7F5E7}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_CommonSkill" ID="{69793CA7-0E19-4AF4-8A3A-6FEEF774408D}">
+					<ChildrenList>
+						<Action Name="" ID="{BC155169-3BFB-41D1-BD05-045637EA9E92}" ShortID="505718125">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_CommonSkill" ID="{FD285E30-912A-4D51-BD48-E3D5D9B62E76}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Special" ID="{C7E11841-8D71-434D-AFCC-4CFBF1706343}">
+					<ChildrenList>
+						<Action Name="" ID="{71C9B471-44B7-40DE-AAA2-0E45F229AB74}" ShortID="277824403">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_(Swimsuit)_ExSkill_2" ID="{0DE8677B-4559-4F23-9B24-F996BA04F39F}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Arigatou" ID="{A5E9498F-F6CB-49F0-808B-C418D851B469}">
+					<ChildrenList>
+						<Action Name="" ID="{72324606-BB95-4F8E-AD4D-128D516E1515}" ShortID="100530991">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_(Swimsuit)_Battle_Recovery_1" ID="{67F7056E-E21B-41CA-8F4A-C841B461EE8C}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Grotesque" ID="{D26AD74D-8DBE-4F0C-8F8B-30EF8E47A011}">
+					<ChildrenList>
+						<Action Name="" ID="{CC2676C1-AA9B-49C5-A756-0C9ACC893180}" ShortID="228590592">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Grotesque" ID="{7E16E209-71BD-4CD0-833F-33697C2E1A69}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

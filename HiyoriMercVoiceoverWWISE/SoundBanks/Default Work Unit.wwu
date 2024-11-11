@@ -5,19 +5,39 @@
 			<ChildrenList>
 				<SoundBank Name="HiyoriMercSoundbank" ID="{7B33C88D-2DFE-4BE7-9B0D-9C2904145340}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_HiyoriMerc_Shout" ID="{65D9A589-EC4F-4118-90BB-7CCD7DF15FEA}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Growup_2" ID="{5A376141-FEBF-427F-A601-8672EC63212A}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Special" ID="{C7E11841-8D71-434D-AFCC-4CFBF1706343}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Owari_3" ID="{016B5DEF-DBE2-4473-AAA0-860EEFC0F4AE}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_EX_Level_1" ID="{85C52317-99D3-44F1-9145-27F4CC62D289}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Bweh" ID="{0CD78778-93D5-45D9-AC12-243CD29FAA32}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Title" ID="{846D99C3-3AD9-463B-8AF7-F5550E09CEE4}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Owari_1" ID="{C7447F57-4151-46A5-8E6E-22319D7002CB}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Hurt" ID="{394A1F0A-AE88-475F-A48E-DB59B08151AF}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Lobby_NewYear" ID="{B01F50AB-3DF1-47A6-B232-ACD39A6A9563}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Lobby_Halloween" ID="{D857E4C4-FCAE-47DA-91B6-467F1D3B0C86}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Relationship_2" ID="{2A07D903-2F98-4887-A563-16A0B45C14F6}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Owari_2" ID="{35710C91-0243-4892-9FBF-8F0CC475C8EA}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Growup_3" ID="{727D13C6-0C67-48A4-8764-D8D3EDA38704}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_EX_1" ID="{4DE9FFBC-ECB4-48E3-82C3-86C0BCA6A53D}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Lobby_Xmas" ID="{D5F0DAE8-3C54-48F7-8469-A533285680E9}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Growup_4" ID="{8B5D222D-3C79-496B-ABE5-C273E4AE10F4}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_EX_Level_3" ID="{5910C975-BC0C-4977-9FFF-AA9D8F92616E}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Arigatou" ID="{A5E9498F-F6CB-49F0-808B-C418D851B469}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_EX_3" ID="{284E96E8-F0BD-4A2E-9FB8-75C63B9BC855}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_RunVictory" ID="{FAE559C3-187C-4AE0-AE84-24F34721EC8A}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Relationship_1" ID="{239DE155-18D7-4AED-8CB5-E31BB776A7EE}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_CommonSkill" ID="{69793CA7-0E19-4AF4-8A3A-6FEEF774408D}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Spawn" ID="{60A1B1FA-70B9-4B0B-90CF-EC1166DBC459}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_AcquireScepter" ID="{DC7968D5-4275-4B15-A700-6692020177E9}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Lobby" ID="{AD080FC1-85C6-4B7F-81A7-6196F1B62993}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_EX_2" ID="{9E1A658F-A59F-4BC8-A813-8ABDBD150FBB}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Relationship_3" ID="{C8B44FF1-3E14-4CB1-A7B1-5C00B04D21DA}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Relationship_4" ID="{18D5B4A5-F80B-4D0F-8665-455743ED8B96}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_EX_Level_2" ID="{D828CD74-8531-4D3D-9E4B-B241DFB5D7F7}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Itai" ID="{CC7775AF-B1A7-4D82-8DE4-5D3029272705}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Growup_1" ID="{D405B8C9-E42D-4E54-A811-48C149B70CA4}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Grotesque" ID="{D26AD74D-8DBE-4F0C-8F8B-30EF8E47A011}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_HiyoriMerc_Lobby_Birthday" ID="{E85A7FB9-B3D2-4F1A-8F75-833075C4157F}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
