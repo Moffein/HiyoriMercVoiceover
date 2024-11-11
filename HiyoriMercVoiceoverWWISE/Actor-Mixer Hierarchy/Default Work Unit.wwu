@@ -29,6 +29,531 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hiyori_Growup_1" ID="{AB48BE1A-C3C3-4E71-9613-F1A8961AC3D0}" ShortID="458315893">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Growup_1" ID="{120E6E58-639E-4AD2-96C0-9E1A1371812C}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Growup_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="571104619"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Growup_1" ID="{120E6E58-639E-4AD2-96C0-9E1A1371812C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Growup_2" ID="{9784AFCE-25D2-4909-9A17-882DCC9B7D30}" ShortID="871207794">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Growup_2" ID="{107EB7F0-52C4-472B-AD99-34AEAA0F38CA}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Growup_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="779511112"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Growup_2" ID="{107EB7F0-52C4-472B-AD99-34AEAA0F38CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Growup_3" ID="{00D47761-9D32-40AB-B0B3-B987EC9CC752}" ShortID="284888883">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Growup_3" ID="{8C27723F-1827-4094-BDF1-839BA0392A4C}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Growup_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="335604828"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Growup_3" ID="{8C27723F-1827-4094-BDF1-839BA0392A4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Growup_4" ID="{96094FCC-3229-4B7F-B034-7FAF8460FB74}" ShortID="362688039">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Growup_4" ID="{2BE4920E-A0A1-4E09-821B-3371217FAC12}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Growup_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="464806706"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Growup_4" ID="{2BE4920E-A0A1-4E09-821B-3371217FAC12}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Relationship_Up_1" ID="{411CFC09-4C12-4289-9C2F-ADCA96B2843C}" ShortID="761147847">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Relationship_Up_1" ID="{CD5C7377-72BC-4EB6-A651-2A7ED446C2BE}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Relationship_Up_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="823810088"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Relationship_Up_1" ID="{CD5C7377-72BC-4EB6-A651-2A7ED446C2BE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Relationship_Up_2" ID="{2FAC527B-FA7C-462A-9D79-C5A2C869EA37}" ShortID="710708878">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Relationship_Up_2" ID="{188358B5-2C39-466C-AD15-5D2DE87BBA2B}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Relationship_Up_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="473693713"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Relationship_Up_2" ID="{188358B5-2C39-466C-AD15-5D2DE87BBA2B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Relationship_Up_3" ID="{5A10C9AD-30E7-4824-A9DA-389938989752}" ShortID="665516249">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Relationship_Up_3" ID="{72D7ABBA-5FAA-4361-AF33-A157EEDDEE71}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Relationship_Up_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="643630350"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Relationship_Up_3" ID="{72D7ABBA-5FAA-4361-AF33-A157EEDDEE71}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Relationship_Up_4" ID="{55ADD65C-7612-4F16-97D3-D4457D554575}" ShortID="202963665">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Relationship_Up_4" ID="{1A984BB8-62BF-4826-A263-C53C3667BDED}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Relationship_Up_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1020822411"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Relationship_Up_4" ID="{1A984BB8-62BF-4826-A263-C53C3667BDED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Season_Birthday" ID="{CC7FE55D-3EB3-4404-A556-B3A552643EBA}" ShortID="709938692">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Season_Birthday" ID="{5A7D4B15-8038-4417-83F8-1511363500DC}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Season_Birthday.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="918350770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Season_Birthday" ID="{5A7D4B15-8038-4417-83F8-1511363500DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Season_Halloween" ID="{182E52D8-CFA5-475F-8FA4-672F7975988B}" ShortID="999104602">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Season_Halloween" ID="{C363B534-5C6B-4B48-9614-53FB55967192}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Season_Halloween.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="306110763"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Season_Halloween" ID="{C363B534-5C6B-4B48-9614-53FB55967192}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Season_NewYear" ID="{7B1171B9-3B8F-434C-A782-0668FE61B83A}" ShortID="528141774">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Season_NewYear" ID="{B44F01D2-D8D2-4B9F-A09C-26D356B2A1B2}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Season_NewYear.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="832562008"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Season_NewYear" ID="{B44F01D2-D8D2-4B9F-A09C-26D356B2A1B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Season_Xmas" ID="{5F1C0B9B-46FC-4838-BCCC-E25F4469346C}" ShortID="940736264">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Season_Xmas" ID="{A192EE9F-A02F-412E-A4B0-34665F04893A}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Season_Xmas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1005193544"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Season_Xmas" ID="{A192EE9F-A02F-412E-A4B0-34665F04893A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hiyori_Title" ID="{970DDF30-091E-48D8-A1C9-1647FE4A0E0A}" ShortID="53503659">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hiyori_Title" ID="{48ED0D0B-C8D2-4234-BB47-D866999433DC}">
+											<Language>SFX</Language>
+											<AudioFile>Hiyori_Title.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="901227737"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hiyori_Title" ID="{48ED0D0B-C8D2-4234-BB47-D866999433DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Lobby" ID="{E77FD2E8-AF05-4A09-9DA8-0C027FF519A2}" ShortID="438348804">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Hiyori_Lobby_4" ID="{D9FA358B-3E79-4DC9-8F96-88BFC8B12CA3}" ShortID="698966663">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="SFX Att" ID="{5D01EF94-51DA-4C42-8DF6-37F6B1217B0B}" WorkUnitID="{A753DB78-A11F-4103-B54C-B8F72F850CAB}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_Lobby_4" ID="{0B59CF91-3554-481C-957F-F887B0669A9B}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_Lobby_4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="523068965"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_Lobby_4" ID="{0B59CF91-3554-481C-957F-F887B0669A9B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_Lobby_1" ID="{060081AF-F9EE-4DAE-9B89-5EE8C0F28BF3}" ShortID="637226248">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="SFX Att" ID="{5D01EF94-51DA-4C42-8DF6-37F6B1217B0B}" WorkUnitID="{A753DB78-A11F-4103-B54C-B8F72F850CAB}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_Lobby_1" ID="{BE28A6A4-915E-4CEE-AF92-960A46607F5A}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_Lobby_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1024305960"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_Lobby_1" ID="{BE28A6A4-915E-4CEE-AF92-960A46607F5A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_Lobby_5" ID="{BE6946C0-D8FE-4C61-880C-A666831033DD}" ShortID="317168705">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="SFX Att" ID="{5D01EF94-51DA-4C42-8DF6-37F6B1217B0B}" WorkUnitID="{A753DB78-A11F-4103-B54C-B8F72F850CAB}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_Lobby_5" ID="{37808CE5-47C5-42A9-B850-CBC7FE79525E}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_Lobby_5.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="362130535"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_Lobby_5" ID="{37808CE5-47C5-42A9-B850-CBC7FE79525E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_LogIn_1" ID="{18A37D77-DE84-4A70-9F5E-14F4454977C9}" ShortID="46810701">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="SFX Att" ID="{5D01EF94-51DA-4C42-8DF6-37F6B1217B0B}" WorkUnitID="{A753DB78-A11F-4103-B54C-B8F72F850CAB}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_LogIn_1" ID="{1BE3DAC3-CA0E-45F9-B676-16553E4C7AA9}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_LogIn_1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="721873342"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_LogIn_1" ID="{1BE3DAC3-CA0E-45F9-B676-16553E4C7AA9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hiyori_LogIn_2" ID="{ADF57EC6-46CE-4F75-898F-43F779796654}" ShortID="458856737">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="SFX Att" ID="{5D01EF94-51DA-4C42-8DF6-37F6B1217B0B}" WorkUnitID="{A753DB78-A11F-4103-B54C-B8F72F850CAB}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hiyori_LogIn_2" ID="{9CDF819D-D5CD-49ED-BB91-377D48AF33F9}">
+													<Language>SFX</Language>
+													<AudioFile>Hiyori_LogIn_2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="492048966"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hiyori_LogIn_2" ID="{9CDF819D-D5CD-49ED-BB91-377D48AF33F9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Hiyori_Lobby_2" ID="{6C068D79-4EAF-4824-9F07-F9B0DFFDC7FB}" ShortID="158580760">
+											<PropertyList>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Hiyori_Lobby_2_1" ID="{4B4E9386-6DC6-4F40-B772-80A833769B75}" ShortID="1050131366">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="SFX Att" ID="{5D01EF94-51DA-4C42-8DF6-37F6B1217B0B}" WorkUnitID="{A753DB78-A11F-4103-B54C-B8F72F850CAB}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hiyori_Lobby_2_1" ID="{953BA6A2-CD1C-47C1-BDFC-F7C37F2421B2}">
+															<Language>SFX</Language>
+															<AudioFile>Hiyori_Lobby_2_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="449752536"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hiyori_Lobby_2_1" ID="{953BA6A2-CD1C-47C1-BDFC-F7C37F2421B2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hiyori_Lobby_2_2" ID="{7ACAB123-1332-43D4-AC56-263B841D6C21}" ShortID="855843611">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="SFX Att" ID="{5D01EF94-51DA-4C42-8DF6-37F6B1217B0B}" WorkUnitID="{A753DB78-A11F-4103-B54C-B8F72F850CAB}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{093C52A8-3A1C-4A62-8930-9660C724A617}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2B58A557-D362-4A5A-83C7-3E295B44E94B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hiyori_Lobby_2_2" ID="{B88DE5D8-F9CA-497C-93FA-EACE071C36F0}">
+															<Language>SFX</Language>
+															<AudioFile>Hiyori_Lobby_2_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="420680417"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hiyori_Lobby_2_2" ID="{B88DE5D8-F9CA-497C-93FA-EACE071C36F0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Playlist">
+													<Reference>
+														<ObjectRef Name="Hiyori_Lobby_2_1" ID="{4B4E9386-6DC6-4F40-B772-80A833769B75}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+													</Reference>
+													<Reference>
+														<ObjectRef Name="Hiyori_Lobby_2_2" ID="{7ACAB123-1332-43D4-AC56-263B841D6C21}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>
 					<ObjectLists>

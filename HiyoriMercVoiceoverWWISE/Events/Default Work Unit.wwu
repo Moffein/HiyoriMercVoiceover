@@ -1,6 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" SchemaVersion="119">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_HiyoriMerc_Growup_1" ID="{D405B8C9-E42D-4E54-A811-48C149B70CA4}">
+					<ChildrenList>
+						<Action Name="" ID="{70009F62-38C0-4582-A561-E8AC41C842D1}" ShortID="800000738">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Growup_1" ID="{AB48BE1A-C3C3-4E71-9613-F1A8961AC3D0}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Growup_2" ID="{5A376141-FEBF-427F-A601-8672EC63212A}">
+					<ChildrenList>
+						<Action Name="" ID="{DD5C09A8-9D21-4798-B7D9-62C04BB61E76}" ShortID="693962898">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Growup_2" ID="{9784AFCE-25D2-4909-9A17-882DCC9B7D30}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Growup_3" ID="{727D13C6-0C67-48A4-8764-D8D3EDA38704}">
+					<ChildrenList>
+						<Action Name="" ID="{FC1760E8-D9B6-4736-8D43-B4DFA57D9D2E}" ShortID="28693865">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Growup_3" ID="{00D47761-9D32-40AB-B0B3-B987EC9CC752}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Growup_4" ID="{8B5D222D-3C79-496B-ABE5-C273E4AE10F4}">
+					<ChildrenList>
+						<Action Name="" ID="{02CA1B8F-D2C6-4C0A-938A-EBB1A1EB63F4}" ShortID="459593096">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Growup_4" ID="{96094FCC-3229-4B7F-B034-7FAF8460FB74}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Lobby" ID="{AD080FC1-85C6-4B7F-81A7-6196F1B62993}">
+					<ChildrenList>
+						<Action Name="" ID="{AC8D5E6B-A828-487D-B6DE-F965A1FC50CF}" ShortID="59761578">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lobby" ID="{E77FD2E8-AF05-4A09-9DA8-0C027FF519A2}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Relationship_1" ID="{239DE155-18D7-4AED-8CB5-E31BB776A7EE}">
+					<ChildrenList>
+						<Action Name="" ID="{2C7F08AF-05E9-4467-B2BF-94EDD6AE57F4}" ShortID="316091743">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Relationship_Up_1" ID="{411CFC09-4C12-4289-9C2F-ADCA96B2843C}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Relationship_2" ID="{2A07D903-2F98-4887-A563-16A0B45C14F6}">
+					<ChildrenList>
+						<Action Name="" ID="{A5CE75BF-F721-4F52-94F3-D7F2A593F52A}" ShortID="1029248047">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Relationship_Up_2" ID="{2FAC527B-FA7C-462A-9D79-C5A2C869EA37}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Relationship_3" ID="{C8B44FF1-3E14-4CB1-A7B1-5C00B04D21DA}">
+					<ChildrenList>
+						<Action Name="" ID="{9F001B9E-018E-4160-87BF-F0FFE8051EB6}" ShortID="918131657">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Relationship_Up_3" ID="{5A10C9AD-30E7-4824-A9DA-389938989752}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Relationship_4" ID="{18D5B4A5-F80B-4D0F-8665-455743ED8B96}">
+					<ChildrenList>
+						<Action Name="" ID="{ABAA30AE-D8F4-4F5C-8EBA-E7CA6982E996}" ShortID="752388965">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Relationship_Up_4" ID="{55ADD65C-7612-4F16-97D3-D4457D554575}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Lobby_Birthday" ID="{E85A7FB9-B3D2-4F1A-8F75-833075C4157F}">
+					<ChildrenList>
+						<Action Name="" ID="{D421E450-FCE0-43F8-97DF-A1F0CE2C5689}" ShortID="222958211">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Season_Birthday" ID="{CC7FE55D-3EB3-4404-A556-B3A552643EBA}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Lobby_Halloween" ID="{D857E4C4-FCAE-47DA-91B6-467F1D3B0C86}">
+					<ChildrenList>
+						<Action Name="" ID="{9EB6C0DA-17F3-49A5-AB03-809145BB0A4C}" ShortID="895573364">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Season_Halloween" ID="{182E52D8-CFA5-475F-8FA4-672F7975988B}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Lobby_NewYear" ID="{B01F50AB-3DF1-47A6-B232-ACD39A6A9563}">
+					<ChildrenList>
+						<Action Name="" ID="{0D3399A3-B409-4FD9-B70E-FB6EE5D8D281}" ShortID="729462083">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Season_NewYear" ID="{7B1171B9-3B8F-434C-A782-0668FE61B83A}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Lobby_Xmas" ID="{D5F0DAE8-3C54-48F7-8469-A533285680E9}">
+					<ChildrenList>
+						<Action Name="" ID="{4A5E11A6-8CCC-499D-8FB1-41DE8CE9C6AB}" ShortID="306681430">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Season_Xmas" ID="{5F1C0B9B-46FC-4838-BCCC-E25F4469346C}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_HiyoriMerc_Title" ID="{846D99C3-3AD9-463B-8AF7-F5550E09CEE4}">
+					<ChildrenList>
+						<Action Name="" ID="{63BD389C-79C2-4586-B52C-0E887B0F0223}" ShortID="588390281">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hiyori_Title" ID="{970DDF30-091E-48D8-A1C9-1647FE4A0E0A}" WorkUnitID="{21678849-3D4F-4C0A-9625-124FE174DA97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

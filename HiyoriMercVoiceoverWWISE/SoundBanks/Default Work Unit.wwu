@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D498F855-B669-4818-B1EA-3ACF0AFB45C1}" SchemaVersion="119">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{D498F855-B669-4818-B1EA-3ACF0AFB45C1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D498F855-B669-4818-B1EA-3ACF0AFB45C1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="HiyoriMercSoundbank" ID="{7B33C88D-2DFE-4BE7-9B0D-9C2904145340}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_HiyoriMerc_Growup_2" ID="{5A376141-FEBF-427F-A601-8672EC63212A}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Title" ID="{846D99C3-3AD9-463B-8AF7-F5550E09CEE4}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Lobby_NewYear" ID="{B01F50AB-3DF1-47A6-B232-ACD39A6A9563}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Lobby_Halloween" ID="{D857E4C4-FCAE-47DA-91B6-467F1D3B0C86}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Relationship_2" ID="{2A07D903-2F98-4887-A563-16A0B45C14F6}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Growup_3" ID="{727D13C6-0C67-48A4-8764-D8D3EDA38704}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Lobby_Xmas" ID="{D5F0DAE8-3C54-48F7-8469-A533285680E9}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Growup_4" ID="{8B5D222D-3C79-496B-ABE5-C273E4AE10F4}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Relationship_1" ID="{239DE155-18D7-4AED-8CB5-E31BB776A7EE}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Lobby" ID="{AD080FC1-85C6-4B7F-81A7-6196F1B62993}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Relationship_3" ID="{C8B44FF1-3E14-4CB1-A7B1-5C00B04D21DA}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Relationship_4" ID="{18D5B4A5-F80B-4D0F-8665-455743ED8B96}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Growup_1" ID="{D405B8C9-E42D-4E54-A811-48C149B70CA4}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_HiyoriMerc_Lobby_Birthday" ID="{E85A7FB9-B3D2-4F1A-8F75-833075C4157F}" WorkUnitID="{0CD32BB3-3123-45A6-B8A5-189D036717CD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>

@@ -11,7 +11,12 @@ using System.Runtime.CompilerServices;
 using BaseVoiceoverLib;
 using System.Collections.Generic;
 using RiskOfOptions.Options;
+using HiyoriMercVoiceover.Components;
+using System.Security.Permissions;
+using System.Security;
 
+[module: UnverifiableCode]
+[assembly: SecurityPermission(SecurityAction.RequestMinimum, SkipVerification = true)]
 namespace HiyoriMercVoiceover
 {
     [BepInDependency(R2API.SoundAPI.PluginGUID)]
@@ -85,6 +90,49 @@ namespace HiyoriMercVoiceover
                 voiceoverInfo.selectActions += HiyoriSelect;
             }
             RefreshNSE();
+        }
+
+        private void HiyoriSelect(GameObject mannequinObject)
+        {
+            if (!enableVoicelines.Value) return;
+
+            bool played = false;
+            if (!playedSeasonalVoiceline)
+            {
+                if (System.DateTime.Today.Month == 1 && System.DateTime.Today.Day == 1)
+                {
+                    Util.PlaySound("Play_HiyoriMerc_Lobby_Newyear", mannequinObject);
+                    played = true;
+                }
+                else if (System.DateTime.Today.Month == 5 && System.DateTime.Today.Day == 24)
+                {
+                    Util.PlaySound("Play_HiyoriMerc_Lobby_bday", mannequinObject);
+                    played = true;
+                }
+                else if (System.DateTime.Today.Month == 10 && System.DateTime.Today.Day == 31)
+                {
+                    Util.PlaySound("Play_HiyoriMerc_Lobby_Halloween", mannequinObject);
+                    played = true;
+                }
+                else if (System.DateTime.Today.Month == 12 && System.DateTime.Today.Day == 25)
+                {
+                    Util.PlaySound("Play_HiyoriMerc_Lobby_xmas", mannequinObject);
+                    played = true;
+                }
+
+                if (played) playedSeasonalVoiceline = true;
+            }
+            if (!played)
+            {
+                if (Util.CheckRoll(5f))
+                {
+                    Util.PlaySound("Play_HiyoriMerc_Title", mannequinObject);
+                }
+                else
+                {
+                    Util.PlaySound("Play_HiyoriMerc_Lobby", mannequinObject);
+                }
+            }
         }
 
         private void InitNSE()
