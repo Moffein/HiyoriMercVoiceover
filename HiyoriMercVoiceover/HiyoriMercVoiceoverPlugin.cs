@@ -118,14 +118,15 @@ namespace HiyoriMercVoiceover
             SkinDef[] skins = SkinCatalog.FindSkinsForBody(BodyCatalog.FindBodyIndex("MercBody"));
             foreach (SkinDef skinDef in skins)
             {
-                if (skinDef.name == "HiyoriMerc")
+                if (skinDef.name == "HiyoriMercInfo")
                 {
                     targetSkin = skinDef;
                 }
-                else if (skinDef.name == "HiyoriMercNoCase")
+                else if (skinDef.name == "HiyoriMercNOBKInfo")
                 {
                     targetSkin2 = skinDef;
                 }
+                if (targetSkin && targetSkin2) break;
             }
 
             if (targetSkin)
