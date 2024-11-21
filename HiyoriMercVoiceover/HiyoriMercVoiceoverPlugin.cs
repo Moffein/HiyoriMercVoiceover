@@ -114,26 +114,40 @@ namespace HiyoriMercVoiceover
         private void OnLoad()
         {
             SkinDef targetSkin = null;
-            targetSkin = Addressables.LoadAssetAsync<SkinDef>("RoR2/Base/Merc/skinMercAltPrisoner.asset").WaitForCompletion();
-            /*SkinDef[] skins = SkinCatalog.FindSkinsForBody(BodyCatalog.FindBodyIndex("MercBody"));
+            SkinDef targetSkin2 = null;
+            SkinDef[] skins = SkinCatalog.FindSkinsForBody(BodyCatalog.FindBodyIndex("MercBody"));
             foreach (SkinDef skinDef in skins)
             {
-                if (skinDef.name == "HiyoriSkinDef")
+                if (skinDef.name == "HiyoriMerc")
                 {
                     targetSkin = skinDef;
-                    break;
                 }
-            }*/
-
-            if (!targetSkin)
-            {
-                Debug.LogError("HiyoriMercVoiceover: Hiyori Merc SkinDef not found. Voicelines will not work!");
+                else if (skinDef.name == "HiyoriMercNoCase")
+                {
+                    targetSkin2 = skinDef;
+                }
             }
-            else
+
+            if (targetSkin)
             {
                 VoiceoverInfo voiceoverInfo = new VoiceoverInfo(typeof(HiyoriMercVoiceoverComponent), targetSkin, "MercBody");
                 voiceoverInfo.selectActions += HiyoriSelect;
             }
+            else
+            {
+                Debug.LogError("HiyoriMercVoiceover: Hiyori Merc SkinDef not found. Voicelines will not work!");
+            }
+
+            if (targetSkin2)
+            {
+                VoiceoverInfo voiceoverInfo = new VoiceoverInfo(typeof(HiyoriMercVoiceoverComponent), targetSkin2, "MercBody");
+                voiceoverInfo.selectActions += HiyoriSelect;
+            }
+            else
+            {
+                Debug.LogError("HiyoriMercVoiceover: Hiyori Merc (No Case) SkinDef not found. Voicelines will not work!");
+            }
+
             RefreshNSE();
         }
 

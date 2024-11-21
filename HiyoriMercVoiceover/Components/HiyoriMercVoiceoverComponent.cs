@@ -76,12 +76,18 @@ namespace HiyoriMercVoiceover.Components
             }
         }
 
+        //Hiyori is more likely to complain about bad shrine rolls
         public override void PlayShrineOfChanceFailServer()
         {
             if (shrineFailCooldown > 0f) return;
-            if (Util.CheckRoll(15f))
+            bool played;
+
+            if (Util.CheckRoll(70f))
             {
-                bool played;
+                played = TryPlayNetworkSound(nseEXL3, 4f, false);
+            }
+            else
+            {
                 if (Util.CheckRoll(33.333333333f))
                 {
                     played = TryPlayNetworkSound(nseOwari1, 6f, false);
@@ -97,8 +103,8 @@ namespace HiyoriMercVoiceover.Components
                         played = TryPlayNetworkSound(nseOwari3, 4.6f, false);
                     }
                 }
-                if (played) shrineFailCooldown = 60f;
             }
+            if (played) shrineFailCooldown = 20f;
         }
 
         public override void PlayLevelUp()
