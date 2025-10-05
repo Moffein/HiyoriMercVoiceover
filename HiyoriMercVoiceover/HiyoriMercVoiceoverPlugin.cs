@@ -22,7 +22,7 @@ namespace HiyoriMercVoiceover
     [BepInDependency(R2API.SoundAPI.PluginGUID)]
     [BepInDependency("com.rune580.riskofoptions", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("com.Moffein.BaseVoiceoverLib", BepInDependency.DependencyFlags.HardDependency)]
-    [BepInPlugin("com.Schale.HiyoriMercVoiceover", "HiyoriMercVoiceover", "1.0.0")]
+    [BepInPlugin("com.Schale.HiyoriMercVoiceover", "HiyoriMercVoiceover", "1.0.2")]
     public class HiyoriMercVoiceoverPlugin : BaseUnityPlugin
     {
         public static ConfigEntry<bool> enableVoicelines;
@@ -159,7 +159,7 @@ namespace HiyoriMercVoiceover
             bool played = false;
             if (!playedSeasonalVoiceline)
             {
-                if (System.DateTime.Today.Month == 1 && System.DateTime.Today.Day == 1)
+                if ((System.DateTime.Today.Month == 1 && System.DateTime.Today.Day == 1) || (System.DateTime.Today.Month == 12 && System.DateTime.Today.Day == 31))
                 {
                     Util.PlaySound("Play_HiyoriMerc_Lobby_Newyear", mannequinObject);
                     played = true;
@@ -174,7 +174,7 @@ namespace HiyoriMercVoiceover
                     Util.PlaySound("Play_HiyoriMerc_Lobby_Halloween", mannequinObject);
                     played = true;
                 }
-                else if (System.DateTime.Today.Month == 12 && System.DateTime.Today.Day == 25)
+                else if (System.DateTime.Today.Month == 12 && (System.DateTime.Today.Day == 24 || System.DateTime.Today.Day == 25))
                 {
                     Util.PlaySound("Play_HiyoriMerc_Lobby_xmas", mannequinObject);
                     played = true;
